@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .portfolio-item {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .portfolio-item div {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 30%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hospital Emergency Unit Accessibility in City of Toronto</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section>
+        <h2>Summary</h2>
+        <div class="portfolio-item">
+            In this project, it is found that 74% of Toronto's population is within the maximum accessibility range to reach a hospital; 
+            it takes emergency response (priority 2) patients approximately 2 days before they can receive healthcare services, 
+            but it takes children (priority 4 patients) approximately 25 days before they can receive healthcare services. 
+            Toronto’s maximum accessibility range percentage is comparable to Istanbul’s 
+            maximum accessibility range percentage since both are major international cities and urban centres. 
+            Spatial distance and wait times are used in combination to determine the accessibility of hospitals for the people of Toronto. 
+            This is because accessibility, in this project, 
+            is defined as whether a patient is within range to be able to reach a hospital and whether they are able to get access to the healthcare services in time for their needs, 
+            be it treatments or emergency responses.
+        </div>
+        <div class="portfolio-item">
+            <div>
+                <h3>Figure 1</h3>
+                <img src="images/ggr373p1.png" alt="Image 1">
+                <p>Hospital accessibility in Toronto areas based on driving distance while using service area. 
+                    Methodologies, such as "joining datasets", natural break jenks classification, and network analysis, are used.</p>
+            </div>
+            <div>
+                <h3>Figure 2</h3>
+                <img src="images/ggr373p2.png" alt="Image 1">
+                <p>Hospital accessibility in Toronto areas based on driving time while using service area. 
+                    Methodologies, such as "joining datasets", natural break jenks classification, and network analysis, are used.</p>
+            </div>
+            <div>
+                <h3>Figure 3</h3>
+                <img src="images/ggr373p3.png" alt="Image 1">
+                <p>Correlation of population density with accessible hospitals based on a five km distance. 
+                    Methodologies, such as "joining datasets" and natural break jenks classification, are used.</p>
+            </div>
+            <div>
+                <h3>Figure 4</h3>
+                <img src="images/ggr373p4.png" alt="Image 1">
+                <p>Hospital accessibility in Toronto areas based on 5 km distance while using closest facility. 
+                    Methodologies, such as "joining datasets" and natural break jenks classification, are used.</p>
+            </div>
+            <div>
+                <h3>Figure 5</h3>
+                <img src="images/ggr373p5.png" alt="Image 1">
+                <p>MRI scan patients scanned within time across all hospitals in Toronto. 
+                    Methodologies, such as "joining datasets", p value, and z score, are used.</p>
+            </div>
+            <div>
+                <h3>Figure 6</h3>
+                <img src="images/ggr373p6.png" alt="Image 1">
+                <p>Priority 4 patients scanned within time across all hospitals in Toronto. 
+                    Methodologies, such as "joining datasets", p value, and z score, are used.</p>
+            </div>
+            <div>
+                <h3>Figure 7</h3>
+                <img src="images/ggr373p7.png" alt="Image 1">
+                <p>Priority 2 patients scanned within time across all hospitals in Toronto. 
+                    Methodologies, such as "joining datasets", p value, and z score, are used.</p>
+            </div>
+            <div>
+                <h3>Figure 8</h3>
+                <img src="images/ggr373p8.png" alt="Image 1">
+                <p>Hospital locations and population density in Toronto mapped out. 
+                    Methodologies, such as "joining datasets" and natural break jenks classification, are used.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Chris Yeung. All rights reserved.</p>
+    </footer>
+</body>
+</html>

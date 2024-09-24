@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .portfolio-item {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .portfolio-item div {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 30%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Property Damages in Edmonton</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section>
+        <h2>Summary</h2>
+        <div class="portfolio-item">
+            In summary, a total of 78 single detached houses in rural Strathcona county are found to have been damaged by wildfires. 
+            Based on calculations, the estimated average economic damages caused by wildfires is $49,686,000 CAD and the estimated median economic damages caused by wildfires is 
+            $50,622,000 CAD. Wildfire polygons and building polygons in Edmonton were spatially joined using the Geopandas package. 
+            The NBR and NDVI were assessed from Landsat 8 imagery. Information, such as building names and their property type, 
+            were searched up in order to find the estimated economic damages caused by wildfires. 
+            Limitations include that buildings and property value could not be analyzed directly with ArcGIS and Python. 
+            Another limitation is the limited information available which has caused an exaggerated estimate of the economic impacts brought by wildfires. 
+            Also, vectors are approximations of wildfires. There can be gaps within the wildfires left unscathed, but the polygons assume their areas are burned completely. 
+            Rocks, bare soil, and water do not burn. Also, low severity fires may cause sub-canopy burn, or understory vegetation burn, 
+            where the upper and continuous canopy of the forest stands cover the satellite’s view, so those fires are left unrecorded. 
+        </div>
+        <div class="portfolio-item">
+            <div>
+                <img src="images/ggr375s1.png" alt="Image 1">
+            </div>
+            <div>
+                <img src="images/ggr375s2.png" alt="Image 1">
+            </div>
+            <div>
+                <img src="images/ggr375s3.png" alt="Image 1">
+            </div>
+            <div>
+                <img src="images/ggr375s4.png" alt="Image 1">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Chris Yeung. All rights reserved.</p>
+    </footer>
+</body>
+</html>
